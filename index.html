@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>custom range slider using html css and javascript</title>
+    <link rel="stylesheet" href="slider.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="slider-box">
+        <div id="minValue" class="values"></div>  
+        <div class="slider-container">
+          <p class="value-tooltip" id="tool-tip">
+          </p>
+          <input
+            type="range"
+            class="slider"
+            id="slider"
+            min="20"
+            max="125"
+          />
+        </div>
+        <div id="maxValue" class="values"></div>  
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
